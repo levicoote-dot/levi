@@ -1,9 +1,9 @@
 <?php
 // Database connection settings
 $host 	= "db";          	
-$database = "YOUR_DATABASE";   
+$database = "levi_db";   
 $username = "root";       
-$password = "ENTER_YOUR_PASSWORD_HERE";   
+$password = " dave";   
  
 try {
 	$pdo = new PDO("mysql:host=$host;dbname=$database;charset=utf8", $username, $password);
